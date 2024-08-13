@@ -1,0 +1,90 @@
+.welcome-message {
+    font-family: "Roboto", sans-serif;
+    top: 2%;
+    left: 44.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    border: none;
+    overflow: visible;
+    border-radius: 0;
+
+    position: relative; 
+}
+
+.welcome-message::before,
+.welcome-message::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    z-index: -1;
+    transition: all 0.75s;
+}
+
+.welcome-message::before {
+    top: -5px;
+    left: -5px;
+    border-left: 2px solid var(--border-color); 
+    border-top: 2px solid var(--border-color); 
+}
+
+.welcome-message::after {
+    bottom: -5px;
+    right: -5px;
+    border-bottom: 2px solid var(--border-color); 
+    border-right: 2px solid var(--border-color); 
+}
+
+.welcome-message:hover::before {
+    height: calc(100% + 7px);
+    width: calc(100% + 7px);
+}
+
+.welcome-message:hover::after {
+    height: calc(100% + 7px);
+    width: calc(100% + 7px);
+}
+
+.welcome-message h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--txt-color);
+}
+
+.deck-container {
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border: 1px solid var(--background-black);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.deck-container h1 {
+    font-family: "Roboto", sans-serif;
+    color: var(--font-color);
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.deck-button {
+    font-family: "Roboto", sans-serif;
+    height: 10%;
+    width: 70%;
+    border-radius: 2rem;
+    color: var(--txt-color);
+    background-color: var(--background-black);
+    border: 1px solid var(--border-color);
+    box-shadow: 17px 7px 8px 0.2px var(--box-shadow-color);
+}
+
+.span:hover {
+    color: var(--hover);
+}

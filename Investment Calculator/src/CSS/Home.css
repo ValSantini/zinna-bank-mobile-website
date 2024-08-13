@@ -1,0 +1,37 @@
+ .home-container {
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border: 1px solid var(--background-black);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+}
+
+.number-display {
+    color: var(--txt-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.logo-container {
+    width: 80%;
+    height: 25%;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--border-color);
+    border-radius: 5%;
+    box-shadow: 17px 7px 18px 2px var(--box-shadow-color);
+}
+
+
+
+
+
+  

@@ -1,0 +1,20 @@
+.header {
+    width: 370px;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .header img {
+    width: 20rem;
+    height: 20rem;
+    padding-left: 3rem;
+    object-fit: contain;
+    background-color: transparent;
+  }
+  
+  .header h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(238, 192, 177);
+    padding-bottom: 1rem;
+  }

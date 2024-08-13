@@ -1,0 +1,16 @@
+.assistance-container {
+    font-family: "Roboto", sans-serif;
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--txt-color);
+    font-size: 1rem;
+    text-align: center;
+}

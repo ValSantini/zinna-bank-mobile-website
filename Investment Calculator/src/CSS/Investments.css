@@ -1,0 +1,21 @@
+.invest-container {
+    overflow-y: auto;
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border: 1px solid var(--background-black);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+}
+
+.investment-button {
+    height: 5%;
+    width: 70%;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    color: var(--txt-color);
+    background-color: var(--background-black);
+    border: 1px solid var(--border-color);
+    box-shadow: 17px 7px 8px 0.2px var(--box-shadow-color);
+}

@@ -1,0 +1,73 @@
+.schedule-payment-container {
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--txt-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--txt-color);
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--border-white);
+    border-radius: 5px;
+}
+
+.form-group input:focus, .form-group select:focus {
+    border-color: var(--font-color);
+}
+
+.schedule-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: var(--txt-color);
+    background-color: var(--font-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.schedule-button:hover {
+    background-color: var(--border-color);
+}
+
+.back-btn {
+    height: 5%;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    color: var(--txt-color);
+    background-color: var(--background-black);
+    border: 1px solid var(--border-color);
+    box-shadow: 17px 7px 8px 0.2px var(--box-shadow-color);
+}

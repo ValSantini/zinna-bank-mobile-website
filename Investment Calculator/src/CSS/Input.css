@@ -1,0 +1,14 @@
+.input-container {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.log-input {
+    height: 3rem;
+    width: 20rem;
+}

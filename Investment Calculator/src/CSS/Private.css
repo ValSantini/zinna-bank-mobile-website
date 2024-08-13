@@ -1,0 +1,33 @@
+.private-container {
+    width: var(--width-standard);
+    height: var(--height-standard);
+    border-radius: 1rem;
+    background-color: var(--background-black);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.private-container h1 {
+    color: var(--font-color);
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem 0.7rem 0.5rem;
+    text-align: center;
+}
+
+.private-container button {
+    height: 10%;
+    width: 70%;
+    border-radius: 2rem;
+    color: var(--txt-color);
+    background-color: var(--background-black);
+    border: 1px solid var(--border-color);
+    box-shadow: 17px 7px 8px 0.2px var(--box-shadow-color);
+}
+
+.span:hover {
+    color: var(--hover);
+}
